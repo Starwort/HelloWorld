@@ -74,7 +74,6 @@ fn main() {
         if computed_sha == hash_sha && computed_md5 == hash_md5 {
             let hello = &std::str::from_utf8(&comb).unwrap()[..11];
             println!("{}", hello);
-            break;
         }
     }
 }
